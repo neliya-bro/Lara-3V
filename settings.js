@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "YOUR_SESSION_ID", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "idgmAR6Z#Ui9shX8mcm0k87aHwEUq7mZY58wQEpVvpzvb1qi2m-4", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
 DEV: process.env.DEV || "94779062397",
@@ -14,9 +14,9 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*_`ᴀᴜᴛᴏ ꜱᴛᴀᴛᴜꜱ ᴊᴜꜱᴛ ɴᴏᴡ ꜱᴇᴇɴ ʙʏ ʟᴀʀᴀ ᴍᴅ`_* 💃🏻",
 MODE: process.env.MODE || "public",  //public | private | inbox | group
-AUTO_VOICE: process.env.AUTO_VOICE || "true",
+AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
-AUTO_REPLY: process.env.AUTO_REPLY || "true",    
+AUTO_REPLY: process.env.AUTO_REPLY || "false",    
 AUTO_REACT: process.env.AUTO_REACT || "false",
 CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
